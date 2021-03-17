@@ -15,10 +15,11 @@ import io.cucumber.junit.CucumberOptions;
 		glue ="tests" ,
 		
 		//Nome da tag no arquivo gherkins para executar os casos de testes correspondentes
-		tags = "@tag1",
+		tags = "@executa",
 		
 		// formatar vizualizar do codigo no console | report html
 		plugin = {"pretty","html:target/report.html"},
+		
 		monochrome = true,
 		
 		// valida se existem features sem steps implemetados

@@ -12,8 +12,9 @@ Feature: Teste Cyber
     
 
     Examples: 
-      | firstName|lastName  |endereco     |email            |phone        |sexo        |cricket |movies  |hockey|languages   |skills   |country |selectCountry  |year   |month   |day | password |confirmPassword|
-      |"José"    |"Fabio"   |"rua teste"  |"teste@teste.com"|"1140003000" |"masculino" |"Sim"   |""      |""    |"Bulgarian" |"Windows"|"Brazil"|"India"        |"1998" |"March" |"1" |"Test123" |"Test123"      |
+      | firstName|lastName  |endereco     |email             |phone        |sexo        |cricket |movies  |hockey |languages   |skills   |country  |selectCountry  |year   |month    |day | password |confirmPassword|
+      |"José"    |"Fabio"   |"rua teste"  |"teste@teste.com" |"1140003000" |"masculino" |"Sim"   |""      |""     |"Bulgarian" |"Windows"|"Brazil" |"India"        |"1998" |"March"  |"1" |"Test123" |"Test123"      |
+      |"Maria"   |"Giulia"  |"rua teste2" |"teste2@teste.com"|"1160006000" |"feminino"  |""      |"Sim"   |"Sim"  |"Arabic"    |"SQL"    |"Bolivia"|"Japan"        |"2000" |"January"|"6" |"Test123" |"Test123"      |
   		
   
   

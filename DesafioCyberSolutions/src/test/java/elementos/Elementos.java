@@ -27,6 +27,7 @@ public class Elementos {
 	public By skills = By.id("Skills");
 	public By country =  By.id("countries");
 	public By selectCountry = By.cssSelector("#basicBootstrapForm > div:nth-child(10) > div > span > span.selection > span");
+	public By campoSelectCountry = By.cssSelector("body > span > span > span.select2-search.select2-search--dropdown > input");
 	public By year = By.id("yearbox");
 	public By month = By.cssSelector("#basicBootstrapForm > div:nth-child(11) > div:nth-child(3) > select");
 	public By day = By.id("daybox");
