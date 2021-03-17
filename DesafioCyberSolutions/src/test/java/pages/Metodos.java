@@ -131,6 +131,14 @@ public void interagirComCombo( By elemento, String texto) {
 		FileUtils.copyFile(SrcFile, destFile);
 		}
 	
+	public void ScreenShotErro(String nome) throws IOException {
+		TakesScreenshot srcShot = ((TakesScreenshot)driver);
+		
+		File SrcFile = srcShot.getScreenshotAs(OutputType.FILE);
+		File destFile = new File("./src/evidencias/erros/teste Fail "+nome+".png");
+		FileUtils.copyFile(SrcFile, destFile);
+		}
+	
 	
 	public void zoom (String qtdZoom) {
 		((JavascriptExecutor)driver).executeScript("document.body.style.zoom='"+qtdZoom+"'");
